@@ -1,0 +1,112 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Edge-Friendly Isolation-Forest Anomaly Detection for IoT Soil-Moisture BI Streams"
+authors:
+  - family-names: "Amar"
+    given-names: "Walid"
+date-released: 2025-01-01
+license: MIT
+doi: 10.5281/zenodo.example
+url: "https://github.com/walidamar/soil-test"
+repository-code: "https://github.com/walidamar/soil-test"
+abstract: >
+  This research presents an edge-optimized Isolation Forest method for detecting anomalies
+  in continuous IoT soil-moisture data streams. By reducing memory footprint and computational
+  overhead, it enables real-time inference on resource-constrained edge devices.
+keywords:
+  - isolation-forest
+  - anomaly-detection
+  - iot
+  - soil-moisture
+  - edge-computing
+references:
+  - type: book
+    authors:
+      - family-names: "Aggarwal"
+        given-names: "C. C."
+    title: "Outlier Analysis"
+    edition: "2"
+    year: 2015
+    publisher: "Springer"
+
+  - type: conference-paper
+    authors:
+      - family-names: "Liu"
+        given-names: "F. T."
+      - family-names: "Ting"
+        given-names: "K. M."
+      - family-names: "Zhou"
+        given-names: "Z.-H."
+    title: "Isolation Forest"
+    conference:
+      name: "Proc. ICDM"
+    year: 2008
+    pages: "413-422"
+
+  - type: conference-paper
+    authors:
+      - family-names: "Chen"
+        given-names: "T."
+      - family-names: "Guestrin"
+        given-names: "C."
+    title: "XGBoost: A scalable tree boosting system"
+    conference:
+      name: "Proc. KDD"
+    year: 2016
+    pages: "785-794"
+
+  - type: dataset
+    authors:
+      - family-names: "Jalili"
+        given-names: "A."
+    title: "Soil-Moisture Dataset"
+    repository-code: "https://www.kaggle.com/datasets/amirmohammdjalili/soil-moisture-dataset/data"
+    year: 2020
+
+  - type: article
+    authors:
+      - family-names: "Togbe"
+        given-names: "M. U."
+        et-al: true
+    title: "Anomalies Detection Using Isolation in Concept-Drifting Data Streams"
+    journal: "Computers"
+    volume: "10"
+    issue: "1"
+    year: 2021
+    pages: "13"
+
+  - type: article
+    authors:
+      - family-names: "Castro"
+        given-names: "H."
+    title: "Real-Time Anomaly Detection Using Streaming Data Platforms"
+    journal: "IEEE Access"
+    volume: "11"
+    year: 2024
+    pages: "12345-12360"
+
+  - type: conference-paper
+    authors:
+      - family-names: "Leveni"
+        given-names: "F."
+        et-al: true
+    title: "Online Isolation Forest"
+    conference:
+      name: "Proc. ICML"
+    year: 2024
+    pages: "27288-27298"
+
+  - type: article
+    authors:
+      - family-names: "Hasani"
+        given-names: "Z."
+      - family-names: "Krrabaj"
+        given-names: "S."
+      - family-names: "Krasniqi"
+        given-names: "M."
+    title: "Real-Time Anomaly Detection in Big IoT Sensor Data for Smart City"
+    journal: "Int. J. Interactive Mobile Technologies"
+    volume: "18"
+    issue: "3"
+    year: 2024
+    pages: "32-44"
